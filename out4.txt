@@ -1,0 +1,158 @@
+python.exe : Traceback 
+(most recent call 
+last):
+At line:1 char:1
++ & "C:\Users\GYANESH S
+HUKLA\miniconda3\python
+.exe" manage.py 
+collectst ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Traceback (mo   
+ st recent call las    
+t)::String) [], Re    
+moteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+  File 
+"C:\Users\GYANESH SHUKL
+A\miniconda3\Lib\site-p
+ackages\django\core\man
+agement\__init__.py", 
+line 256, in 
+fetch_command
+    app_name = 
+commands[subcommand]
+               
+~~~~~~~~^^^^^^^^^^^^
+KeyError: 
+'collectstatic'
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File 
+"C:\Users\GYANESH SHUKL
+A\OneDrive\Desktop\hrms
+\backend\manage.py", 
+line 22, in <module>
+    main()
+    ~~~~^^
+  File 
+"C:\Users\GYANESH SHUKL
+A\OneDrive\Desktop\hrms
+\backend\manage.py", 
+line 18, in main
+    execute_from_comman
+d_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~
+~~~~~~^^^^^^^^^^
+  File 
+"C:\Users\GYANESH SHUKL
+A\miniconda3\Lib\site-p
+ackages\django\core\man
+agement\__init__.py", 
+line 443, in execute_fr
+om_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File 
+"C:\Users\GYANESH SHUKL
+A\miniconda3\Lib\site-p
+ackages\django\core\man
+agement\__init__.py", 
+line 437, in execute
+    self.fetch_command(
+subcommand).run_from_ar
+gv(self.argv)
+    ~~~~~~~~~~~~~~~~~~^
+^^^^^^^^^^^
+  File 
+"C:\Users\GYANESH SHUKL
+A\miniconda3\Lib\site-p
+ackages\django\core\man
+agement\__init__.py", 
+line 263, in 
+fetch_command
+    
+settings.INSTALLED_APPS
+  File 
+"C:\Users\GYANESH SHUKL
+A\miniconda3\Lib\site-p
+ackages\django\conf\__i
+nit__.py", line 75, in 
+__getattr__
+    self._setup(name)
+    ~~~~~~~~~~~^^^^^^
+  File 
+"C:\Users\GYANESH SHUKL
+A\miniconda3\Lib\site-p
+ackages\django\conf\__i
+nit__.py", line 62, in 
+_setup
+    self._wrapped = Set
+tings(settings_module)
+                    ~~~
+~~~~~^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\GYANESH SHUKL
+A\miniconda3\Lib\site-p
+ackages\django\conf\__i
+nit__.py", line 162, 
+in __init__
+    mod = importlib.imp
+ort_module(self.SETTING
+S_MODULE)
+  File 
+"C:\Users\GYANESH SHUKL
+A\miniconda3\Lib\import
+lib\__init__.py", line 
+88, in import_module
+    return _bootstrap._
+gcd_import(name[level:]
+, package, level)
+           ~~~~~~~~~~~~
+~~~~~~~~~~^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
+  File "<frozen importl
+ib._bootstrap>", line 
+1387, in _gcd_import
+  File "<frozen importl
+ib._bootstrap>", line 
+1360, in _find_and_load
+  File "<frozen importl
+ib._bootstrap>", line 
+1331, in 
+_find_and_load_unlocked
+  File "<frozen importl
+ib._bootstrap>", line 
+935, in _load_unlocked
+  File "<frozen importl
+ib._bootstrap_external>
+", line 1023, in 
+exec_module
+  File "<frozen importl
+ib._bootstrap>", line 
+488, in _call_with_fram
+es_removed
+  File 
+"C:\Users\GYANESH SHUKL
+A\OneDrive\Desktop\hrms
+\backend\core\settings.
+py", line 3, in 
+<module>
+    import 
+dj_database_url
+ModuleNotFoundError: 
+No module named 
+'dj_database_url'
